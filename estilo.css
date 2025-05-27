@@ -1,5 +1,9 @@
+
+body{
+    text-align: center;
+}
 .Tituloprincipal{
-    color: #4379C0;
+    color: #3f7dcf;
 
 }
 .Titulosecundario{
@@ -9,5 +13,40 @@
     color: #4379C0;
 }
 body{
-    background-color: #282D33;
+    background-color: #4B6070;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.textointeiro{
+    max-width: 1300px;
+    text-align: center;
+    margin: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 0.9em;
+    color: #4379C0;
+    border-top: 1px solid #ccc;
+    padding-top: 15px;
+}
+.conteudo-padrao{
+    background-color: #4289C3;
+    border:  1px solid #4B6070;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px #4379C0;
+    transition: transform 0.3s ease;
+}
+.conteudo-padrao{
+    transform: translateY(-50%, -50%);
 }
