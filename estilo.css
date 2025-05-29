@@ -4,13 +4,15 @@ body{
 }
 .Tituloprincipal{
     color: #3f7dcf;
-
+background-color: #4B6070;
 }
 .Titulosecundario{
     color: #4379C0;
+    background-color: #4B6070;
 }
 .Titulojogos{
     color: #4379C0;
+    background-color: #4B6070;
 }
 body{
     background-color: #4B6070;
@@ -45,8 +47,9 @@ footer{
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px #4379C0;
-    transition: transform 0.3s ease;
+    
 }
-.conteudo-padrao{
-    transform: translateY(-50%, -50%);
+.elemento{
+    padding: 20px;
+    margin: 20px;
 }
