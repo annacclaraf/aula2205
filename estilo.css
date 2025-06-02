@@ -1,19 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ancizar+Sans:ital,wght@0,100..1000;1,100..1000&display=swap');
+
 
 body{
-    text-align: center;
+    display: flex;
+    flex-direction: column; /* para alinhar elementos de cima para baixo */
+    justify-content: center; /* centraliza verticalmente */
+    align-items: center; /* centraliza horizontalmente */
+    min-height: 100vh; /* altura da tela toda */
+    background-color: #4B6070;
+    margin: 0; /* tira margens padrões */
+    text-align: center; /* centraliza textos */
 
 }
 .Tituloprincipal{
     color: #3f7dcf;
 background-color: #4B6070;
+font-family: "Ancizar Sans", sans-serif;
 }
 .Titulosecundario{
     color: #4379C0;
     background-color: #4B6070;
+    font-family: "Ancizar Sans", sans-serif;
 }
 .Titulojogos{
     color: #4379C0;
     background-color: #4B6070;
+    font-family: "Ancizar Sans", sans-serif;
 }
 body{
     background-color: #4B6070;
@@ -28,6 +40,7 @@ ul{
     max-width: 1300px;
     text-align: center;
     margin: auto;
+    font-family: "Ancizar Sans", sans-serif;
 }
 *{
     margin: 0;
@@ -48,9 +61,22 @@ footer{
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 0 10px #4379C0;
+    width:1200px;
+    margin: 20px auto; /* auto centraliza horizontalmente */
+    max-width: 1200px; /* para manter a largura máxima */
+    font-family: "Ancizar Sans", sans-serif;
+  
     
 }
 .conteudo-padrao{
     padding: 20px;
     margin: 20px;
+    font-family: "Ancizar Sans", sans-serif;
+    
+}
+
+.annaimg{
+    border-radius: 10px;
+    border-color: aliceblue;
+
 }
