@@ -3,13 +3,13 @@
 
 body{
     display: flex;
-    flex-direction: column; /* para alinhar elementos de cima para baixo */
-    justify-content: center; /* centraliza verticalmente */
-    align-items: center; /* centraliza horizontalmente */
-    min-height: 100vh; /* altura da tela toda */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
     background-color: #4B6070;
-    margin: 0; /* tira margens padrões */
-    text-align: center; /* centraliza textos */
+    margin: 0; 
+    text-align: center;
 
 }
 .Tituloprincipal{
@@ -62,8 +62,8 @@ footer{
     padding: 20px;
     box-shadow: 0 0 10px #4379C0;
     width:1200px;
-    margin: 20px auto; /* auto centraliza horizontalmente */
-    max-width: 1200px; /* para manter a largura máxima */
+    margin: 20px auto; 
+    max-width: 1200px; 
     font-family: "Ancizar Sans", sans-serif;
   
     
@@ -79,4 +79,24 @@ footer{
     border-radius: 10px;
     border-color: aliceblue;
 
+}
+.social-links{
+display: flex;
+  gap: 10px; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.links img {
+  display: block;
+}
+.annaimg {
+  display: block;         
+  margin: 30px auto 0;    
+  width: 300px;
+  height: 400px;
+
+   border: 3px solid #000;
+   border-radius: 10px;  
 }
